@@ -1,0 +1,70 @@
+<!-- We don't need a full layout in this file because this page will be parsed with Ajax.  -->
+<div class="page" data-name="gamePage" style="background-color: black;  color: rgb(255, 255, 255);">
+    <div class="page-content ">
+        <div class="block text-align-center" style="background-color: black; color: rgb(255, 255, 255);">
+            <div class="row titulo">
+                <div class="col" style="background: #800080;  /* fallback for old browsers */; background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */; background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */; color: black;">
+                    <h2>TABLERO DE ANOTACIONES</h2>
+                </div>
+            </div>
+            <div id="grid" class="col-100">
+            </div>
+            </div>
+            <div class="row" style="background-color: black; color: rgb(255, 255, 255);">
+                <div class="col left">
+                    <a href="#" class="link back">
+                    <i style="background-color: rgb(15, 143, 148); color: rgb(255, 255, 255); border-radius: 100%;" class="icon icon-back"></i>
+                    <span style="background-color: rgb(15, 143, 148); color: rgb(255, 255, 255);" class="ios-only">Back</span>
+                    </a>
+                </div>
+                <div class="col">
+                    <button class="col button button-small float-right" style="background-color: black; color: rgb(255, 255, 255);" id="irAIndex">FINALIZAR</button>
+                </div>
+            </div>
+        </div>
+        <div class="popup popup-about">
+            <div  class="block borders">
+                <p>Cantidad de dados con el numero</p>
+                <div id="popup-container">
+                    <div class="row">
+                    <button class="link abou popup-close button col-100 button-outline" id="1Dado">1</button>
+                    </div>
+                    <div class="row">
+                    <button class="link abou popup-close button col-100  button-outline" id="2Dado">2</button>
+                    </div>
+                    <div class="row">
+                    <button class="link abou popup-close button col-100 button-outline" id="3Dado">3</button>
+                    </div>
+                    <div class="row">
+                        <button class="link abou popup-close button col-100 button-outline" id="4Dado">4</button>
+                    </div>
+                    <div class="row">
+                    <button class="link abou popup-close button col-100 button-outline" id="5Dado">5</button>
+                    </div>
+                    <div class="row">
+                    <button class="link abou popup-close button col-100 button-outline" id="6Dado">6</button>
+                    </div>
+                    <div class="row">
+                    <button class="link abou popup-close button col-100 button-outline" id="-">Tachar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup popup-services">
+            <div  class="block borders">
+                <p>Cantidad de dados con el numero</p>
+                <div id="popup-container">
+                    <div class="row">
+                        <button class="link servi popup-close button col-100 button-outline" id="5">Servido</button>
+                    </div>
+                    <div class="row">
+                        <button class="link servi popup-close button col-100 button-outline" id="0">No Servido</button>
+                    </div>
+                    <div class="row">
+                        <button class="link servi popup-close button col-100 button-outline" id="Tachar">Tachar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

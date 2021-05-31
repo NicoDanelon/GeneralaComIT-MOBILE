@@ -83,5 +83,21 @@
 * {
 	font-family: 'Poppins', Arial, sans-serif;
 }
+.players{
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+.result{
+  font-weight: 900;
+}
+.borders{
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  
+}
+.col-33{
+  border-color: white;
+}
 
 
