@@ -78,8 +78,6 @@
        url('../fonts/poppins-v13-latin-900italic.svg#Poppins') format('svg'); /* Legacy iOS */
 }
 
-
-
 * {
 	font-family: 'Poppins', Arial, sans-serif;
 }
@@ -91,13 +89,16 @@
   font-weight: 900;
 }
 .borders{
+  height: 36px;
   text-align: center;
   color: white;
   font-weight: 700;
-  
+  border-right: white 1px solid;
+  border-radius: 0%;
 }
-.col-33{
-  border-color: white;
+.row{
+  border-bottom: white 1px solid;
+  border-left: white 1px solid;
 }
 
 
