@@ -91,6 +91,7 @@ function fnRecuperarFyC(botonActual) {
 }
 
 function jugadas() {
+    $$('#ups').on('click', function(){$$('#R'+fila+columna).html('0')})
     for (let i = 0; i < servicesPopUp.length; i++) {
         $$('#' + servicesPopUp[i].id).on('click', function() { //agrega evento a cada boton segun su id
             if (servicesPopUp[i].id == 'S5') {
@@ -108,6 +109,7 @@ function jugadas() {
 }
 
 function fnmultiplicar() {
+  $$('#ups1').on('click', function(){$$('#R'+fila+columna).html('0')})
     for (let i = 0; i < 6; i++) {
         $$('#' + aboutPopUp[i].id).on('click', function() {
             resutladoJugador1 = parseInt(aboutPopUp[i].id[1]) * fila
