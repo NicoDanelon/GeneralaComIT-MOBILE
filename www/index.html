@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <!--
         Customize this policy to fit your own app's needs. For more guidance, see:
@@ -38,58 +39,66 @@
         <div class="statusbar"></div>
         <!-- Your main view, should have "view-main" class -->
         <div class="view view-main">
-       
-        <!-- Initial Page, "data-name" contains page name -->
+
+            <!-- Top Navbar -->
+
+            <!-- Toolbar -->
+
+            <!-- Initial Page, "data-name" contains page name -->
             <div data-name="index" class="page">
                 <!-- Scrollable page content -->
                 <div class="page-content">
                     <div class="block list inline-labels no-hairlines-md">
-                      <br/><br/><br/>
-                      <div class="block-title text-align-center"><h1>TACHAME LA</h1><h1>DOBLE</h1><h4>GENERALA</h4></div>
-                      <div class="col-100">
-                        <div class="list inline-labels no-hairlines-md">
-                            <ul>
-                              <li class="item-content item-input">
-                                <div class="item-media">
-                                  <i class="icon demo-list-icon"></i>
-                                </div>
-                                <div class="item-inner">
-                                  <div class="item-title item-label" >Jugador 1:</div>
-                                  <div class="item-input-wrap">
-                                    <input type="text" id="player1Name" placeholder="Nombre Jugador 1" />
-                                    <span class="input-clear-button"></span>
-                                  </div>
-                                </div>
-                              </li>
-                              <li class="item-content item-input">
-                                <div class="item-media">
-                                  <i class="icon demo-list-icon"></i>
-                                </div>
-                                <div class="item-inner">
-                                  <div class="item-title item-label">Jugador 2:</div>
-                                  <div class="item-input-wrap">
-                                    <input type="text" id="player2Name" placeholder="Nombre jugador 2" />
-                                    <span class="input-clear-button"></span>
-                                  </div>
-                                </div>
-                              </li>
-                            </ul>
+                        <br/><br/><br/>
+                        <div class="block-title text-align-center" style="color: rgb(24, 23, 23);">
+                            <h1>TACHAME LA</h1>
+                            <h1>DOBLE</h1>
+                            <h4>GENERALA</h4>
                         </div>
-                        <div class="block block-strong">
-                          <button class="button button-large button-fill button-preloader color-gray" id="gamePage">
-                            <span class="text-color-white"><strong>JUGAR</strong></span>
+                        <div class="col">
+                            <div class="list inline-labels no-hairlines-md">
+                                <ul>
+                                    <li class="item-content item-input">
+                                        <div class="item-media">
+                                            <i class="icon demo-list-icon"></i>
+                                        </div>
+                                        <div class="item-inner">
+                                            <div class="item-title item-label">Jugador 1</div>
+                                            <div class="item-input-wrap">
+                                                <input type="text" id="jugador1" placeholder="Nombre " />
+                                                <span class="input-clear-button"></span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content item-input">
+                                        <div class="item-media">
+                                            <i class="icon demo-list-icon"></i>
+                                        </div>
+                                        <div class="item-inner">
+                                            <div class="item-title item-label">Jugador 2</div>
+                                            <div class="item-input-wrap">
+                                                <input type="text" id="jugador2" placeholder="Nombre" />
+                                                <span class="input-clear-button"></span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="block block-strong">
+                                <button class="button button-large button-fill button-preloader color-gray" id="jugar">
+                            <span style="color: black;"><strong>JUGAR</strong></span>
                           </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
-    <script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="lib/framework7/framework7-bundle.min.js"></script>
-    <script type="text/javascript" src="js/my-app.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="lib/framework7/framework7-bundle.min.js"></script>
+        <script type="text/javascript" src="js/my-app.js"></script>
 </body>
 
 </html>

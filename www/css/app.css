@@ -78,6 +78,8 @@
        url('../fonts/poppins-v13-latin-900italic.svg#Poppins') format('svg'); /* Legacy iOS */
 }
 
+
+
 * {
 	font-family: 'Poppins', Arial, sans-serif;
 }
@@ -118,3 +120,15 @@
   background-color: black;
   color: rgb(255, 255, 255);
 }
+
+.popup{
+  background: #800080;
+  background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */; background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+  color: rgb(255, 255, 255);
+  height: 50%;
+  align-items: flex-end;
+  color: black;
+  float: inline-end;
+  margin-top: 50vh;
+}
+
