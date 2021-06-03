@@ -111,6 +111,9 @@
   background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */; background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
   color: black;
 }
+.dialog-button{
+  color: black;
+}
 .backgroundtitle{
   background-color: rgb(15, 143, 148);
   color: rgb(255, 255, 255);
@@ -130,5 +133,14 @@
   color: black;
   float: inline-end;
   margin-top: 50vh;
+}
+.dialog{
+  background: #800080;
+  background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */; background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+  color: rgb(255, 255, 255);
+  align-items: flex-end;
+  color: black;
+  float: inline-end;
+  font-weight: 700 !important;
 }
 
